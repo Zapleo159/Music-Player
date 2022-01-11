@@ -1,0 +1,56 @@
+.musicplayer {
+  --primary: #f40082;
+  --secondary: #ffd200;
+  background-color: rgb(167, 164, 164);
+  border-radius: 0%;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+}
+
+.playback {
+  font-size: 2.5rem;
+  color: var(--primary);
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+.playback:hover {
+  color: var(--secondary);
+}
+
+.skip, .restart {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+.skip:hover, .restart:hover {
+  color: var(--primary);
+}
+
+.timer,
+.duration {
+  font-family: monospace;
+  font-size: 1.5 rem;
+}
+
+.timer {
+  margin-left: 1.8rem;
+}
+
+.progressbar {
+    width: 450px;
+}
+
